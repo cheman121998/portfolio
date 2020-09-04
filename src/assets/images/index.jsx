@@ -1,18 +1,18 @@
 import bag from './bag.png';
-import contactLustration from './Contact-Illustration.png';
+import illusContact from './contact-illustration.png';
 import girl from './girl.png';
-import lusHeader from './IllustrationHeader.png';
-import desDev from './dessign-dev.png';
-import informationImg from './Information-imag.png';
-import leaves from './Leaves.png';
-import leaveLeft from './Left-Leaves.png';
-import Logo from './Logo.png';
+import illusHeader from './illustration-header.png';
+import desDev from './design-dev.png';
+import informationImg from './information-img.png';
+import leaves from './leaves.png';
+import leaveLeft from './left-leaves.png';
+import logo from './logo.png';
 import pot from './pot.png';
-import leaveRight from './Right-Leaves.png';
-import behance from './Behance.svg';
-import dibbble from './Dribbble.svg';
-import linkedin from './Linkedin.svg';
-import strategy from './Strategy-image.png';
+import leaveRight from './right-reaves.png';
+import behance from './behance.svg';
+import dibbble from './dribbble.svg';
+import linkedin from './linkedin.svg';
+import strategy from './strategy-image.png';
 
 export {
     behance,
@@ -20,14 +20,14 @@ export {
     linkedin,
     bag,
     girl,
-    lusHeader,
+    illusHeader,
     desDev,
     informationImg,
     leaves,
     leaveLeft,
-    Logo,
+    logo,
     leaveRight,
     pot,
     strategy,
-    contactLustration,
+    illusContact,
 };
