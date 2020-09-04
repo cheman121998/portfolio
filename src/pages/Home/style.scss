@@ -1,26 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Questrial&family=Roboto:wght@300;400;500;700;900&display=swap');
 
-$font-title: "Roboto", sans-serif;
-$font-content: "Questrial", sans-serif;
+$font-title: 'Roboto', sans-serif;
+$font-content: 'Questrial', sans-serif;
 
 .home {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  overflow: hidden;
-}
-.txt {
-  font-family: Roboto;
-  h1 {
-    font-size: 34px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+    box-sizing: border-box;
     font-family: $font-title;
-  }
-  h2 {
-    font-size: 30px;
-    font-family: $font-size;
-  }
-  p {
-    font-size: 18px;
-    color: #363636;
-  }
+
+    h1 {
+        font-size: 34px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 18px;
+        color: #363636;
+        font-family: $font-content;
+    }
 }
