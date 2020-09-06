@@ -6,17 +6,20 @@ import desDev from './dessign-dev.png';
 import informationImg from './Information-imag.png';
 import leaves from './Leaves.png';
 import leaveLeft from './Left-Leaves.png';
-import Logo from './Logo.png';
+import logo from './Logo.png';
 import pot from './pot.png';
 import leaveRight from './Right-Leaves.png';
 import behance from './Behance.svg';
-import dibbble from './Dribbble.svg';
+import dibble from './Dribbble.svg';
 import linkedin from './Linkedin.svg';
 import strategy from './Strategy-image.png';
+import dotLine1 from './dotLine1.png';
+import dotLine2 from './dotLine2.png';
+import cake from './cake.png';
 
 export {
     behance,
-    dibbble,
+    dibble,
     linkedin,
     bag,
     girl,
@@ -25,9 +28,12 @@ export {
     informationImg,
     leaves,
     leaveLeft,
-    Logo,
+    logo,
     leaveRight,
     pot,
     strategy,
     contactLustration,
+    dotLine1,
+    dotLine2,
+    cake,
 };
