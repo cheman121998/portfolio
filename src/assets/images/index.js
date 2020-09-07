@@ -16,8 +16,10 @@ import strategy from './Strategy-image.png';
 import dotLine1 from './dotLine1.png';
 import dotLine2 from './dotLine2.png';
 import cake from './cake.png';
+import bg from './bg.png';
 
 export {
+    bg,
     behance,
     dibble,
     linkedin,

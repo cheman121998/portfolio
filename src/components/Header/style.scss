@@ -6,32 +6,31 @@
     background: url('../../assets/images/IllustrationHeader.png') no-repeat;
     background-size: 100vh;
     background-position: right;
+
     .navbar {
         max-height: 56px;
         .container {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            .navbar-brand {
-                width: 56px;
-                height: 56px;
-                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
-                border-radius: 50%;
-            }
-            .collapse {
-                .nav {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    list-style: none;
-                    margin: 0;
-                    .nav-item {
-                        line-height: 20px;
-                        padding-right: 40px;
+            .sub-navbar {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                .navbar-brand {
+                    width: 56px;
+                    height: 56px;
+                    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+                    border-radius: 50%;
+                }
+                .nav-item {
+                    .nav-link {
                         a {
                             color: #363636;
                             font-size: 15px;
                             height: 20px;
+                            margin-right: 40px;
                         }
                         a:hover,
                         a.active {
@@ -57,6 +56,22 @@
                         color: #3f3d56;
                         background: transparent;
                         font-weight: bold;
+                    }
+                }
+                .showOnMobile {
+                    display: none;
+                    .contact {
+                        border-radius: 24px;
+                        background: #3f3d56;
+                        color: #fff;
+                        font-size: 15px;
+                        line-height: 20px;
+                        width: 126px;
+                        height: 42px;
+                        border: none;
+                        text-align: center;
+                        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+                        transition: 0.5s ease;
                     }
                 }
             }
@@ -110,11 +125,59 @@
         }
     }
 }
+.ant-drawer-body {
+    background-color: #54b192;
+    display: block;
+    a {
+        color: #fff;
+        font-size: 18px;
+        display: block;
+        line-height: 40px;
+    }
+    // a:hover,
+    // a.active {
+    //     border-bottom: 2px solid #3f3d56;
+    //     width: fit-content;
+    // }
+    button {
+        border-radius: 24px;
+        background: #3f3d56;
+        color: #fff;
+        font-size: 15px;
+        line-height: 20px;
+        height: 42px;
+        border: none;
+        text-align: center;
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+        transition: 0.5s ease;
+        width: 126px;
+        margin-top: 36px;
+        width: 100%;
+    }
+    button:hover {
+        border: 2px solid #3f3d56;
+        background: transparent;
+        font-weight: bold;
+        color: white;
+    }
+}
 
 @media (max-width: 575px) {
     #header {
         background-size: 60vh;
         background-position-x: 20vh;
+        .navbar {
+            .container {
+                .sub-navbar {
+                    .nav-item {
+                        display: none;
+                    }
+                    .showOnMobile {
+                        display: block;
+                    }
+                }
+            }
+        }
         .container {
             .intro-text {
                 h1 {
