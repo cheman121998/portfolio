@@ -1,27 +1,31 @@
 import bag from './bag.png';
-import illusContact from './contact-illustration.png';
+import contactLustration from './contact-illustration.png';
 import girl from './girl.png';
-import illusHeader from './illustration-header.png';
+import lusHeader from './illustration-header.png';
 import desDev from './design-dev.png';
-import informationImg from './information-img.png';
+import informationImg from './information-imag.png';
 import leaves from './leaves.png';
 import leaveLeft from './left-leaves.png';
 import logo from './logo.png';
 import pot from './pot.png';
 import leaveRight from './right-leaves.png';
 import behance from './behance.svg';
-import dibbble from './dribbble.svg';
+import dibble from './dribbble.svg';
 import linkedin from './linkedin.svg';
 import strategy from './strategy-image.png';
 import food from './food.png';
+import dotLine1 from './dotLine1.png';
+import dotLine2 from './dotLine2.png';
+import cake from './cake.png';
+import illusContact from './contact-illustration.png';
 
 export {
     behance,
-    dibbble,
+    dibble,
     linkedin,
     bag,
     girl,
-    illusHeader,
+    lusHeader,
     desDev,
     informationImg,
     leaves,
@@ -32,4 +36,8 @@ export {
     strategy,
     illusContact,
     food,
+    contactLustration,
+    dotLine1,
+    dotLine2,
+    cake,
 };

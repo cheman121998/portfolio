@@ -7,11 +7,10 @@ import {
     food,
     pot,
     leaves,
-    illusContact,
     behance,
-    dibbble,
     linkedin,
     leaveLeft,
+    dibble,
 } from '../../assets/images';
 
 const listImage = [bag, girl, food, pot];
@@ -60,7 +59,7 @@ class RecentWork extends React.Component {
                             <div className="wrapIcon">
                                 <Tooltip title="Social " trigger="clicker" placement="bottomRight">
                                     <a>
-                                        <img src={dibbble} />
+                                        <img src={dibble} />
                                     </a>
                                     <a>
                                         <img src={behance} />
