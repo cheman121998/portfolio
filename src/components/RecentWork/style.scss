@@ -95,6 +95,7 @@ button:hover {
     flex-direction: column;
     display: flex;
     justify-content: flex-end;
+    position: relative;
 
     button {
         width: 180px;
@@ -105,9 +106,18 @@ button:hover {
     h1 {
         margin: 0 0 36px 0;
     }
+    .leaveLeft {
+        top: 528px;
+        left: -124px;
+        width: 244px;
+        height: 328px;
+        position: absolute;
+        z-index: -1;
+    }
 
     .content {
-        width: 30%;
+        width: 40%;
+        z-index: 1;
 
         .wrapIcon {
             display: flex;
@@ -158,6 +168,11 @@ button:hover {
         justify-content: flex-start;
         width: 100%;
         // overflow: hidden;
+
+        .leaveLeft {
+            top: 0px;
+            left: -124px;
+        }
         .content {
             width: 100%;
             display: flex;

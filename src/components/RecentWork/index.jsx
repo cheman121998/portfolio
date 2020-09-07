@@ -11,6 +11,7 @@ import {
     behance,
     dibbble,
     linkedin,
+    leaveLeft,
 } from '../../assets/images';
 
 const listImage = [bag, girl, food, pot];
@@ -46,6 +47,7 @@ class RecentWork extends React.Component {
 
                 <div className="contact">
                     <div className="container">
+                        <img src={leaveLeft} className="leaveLeft" />
                         <div className="content">
                             <h1>Ready to make something amazing?</h1>
                             <Tooltip
