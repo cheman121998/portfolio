@@ -1,13 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
+import { BrowserRouter } from 'react-router-dom';
+import 'antd/dist/antd.css';
+import Home from './pages/Home';
+
 function App() {
-  return (
-    <div className="App">
-      Man Man
-    </div>
-  );
+    return (
+        <BrowserRouter basename="/portfolio">
+            <Home />
+        </BrowserRouter>
+    );
 }
 
 export default App;

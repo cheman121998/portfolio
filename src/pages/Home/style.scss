@@ -7,10 +7,9 @@ $font-content: 'Questrial', sans-serif;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    overflow-x: hidden;
-    box-sizing: border-box;
+    overflow: hidden;
     font-family: $font-title;
-
+    letter-spacing: 0.05rem;
     h1 {
         font-size: 34px;
     }
