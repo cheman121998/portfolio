@@ -61,7 +61,11 @@ class Header extends React.Component {
                                     </nav>
                                 </div>
                                 <div className="showOnMobile">
-                                    <button className="buttonMenu" onClick={this.showMenu}>
+                                    <button
+                                        className="buttonMenu"
+                                        onClick={this.showMenu}
+                                        style={{ backgroundColor: 'none', fontSize: '30px' }}
+                                    >
                                         <ion-icon name="menu-outline"></ion-icon>
                                     </button>
 

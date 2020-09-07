@@ -123,15 +123,17 @@
         .group-icon {
             img {
                 width: 28px;
-                height: 16px;
+                height: 28px;
                 margin-right: 28px;
                 margin-top: 80px;
                 cursor: pointer;
                 transition: 0.5s;
             }
             img:hover {
-                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
                 transform: scale(1.002);
+                border-radius: 50%;
+                padding: 1px;
             }
         }
     }
@@ -150,6 +152,7 @@
     //     border-bottom: 2px solid #3f3d56;
     //     width: fit-content;
     // }
+
     button {
         border-radius: 24px;
         background: #3f3d56;
@@ -161,9 +164,10 @@
         text-align: center;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
         transition: 0.5s ease;
-        width: 126px;
-        margin-top: 36px;
         width: 100%;
+        margin-top: 36px;
+        align-items: center;
+        justify-content: center;
     }
     button:hover {
         border: 2px solid #3f3d56;

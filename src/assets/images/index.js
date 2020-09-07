@@ -9,7 +9,7 @@ import leaveLeft from './left-leaves.png';
 import logo from './logo.png';
 import pot from './pot.png';
 import leaveRight from './right-leaves.png';
-import behance from './Behance.svg';
+import behance from './behance.svg';
 import dibble from './dribbble.svg';
 import linkedin from './linkedin.svg';
 import strategy from './strategy-image.png';
