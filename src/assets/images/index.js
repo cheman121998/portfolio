@@ -9,7 +9,7 @@ import leaveLeft from './left-leaves.png';
 import logo from './logo.png';
 import pot from './pot.png';
 import leaveRight from './right-leaves.png';
-import behance from './behance.svg';
+import behance from './Behance.svg';
 import dibble from './dribbble.svg';
 import linkedin from './linkedin.svg';
 import strategy from './strategy-image.png';
@@ -18,8 +18,10 @@ import dotLine1 from './dotLine1.png';
 import dotLine2 from './dotLine2.png';
 import cake from './cake.png';
 import illusContact from './contact-illustration.png';
+import bg from './bg.png';
 
 export {
+    bg,
     behance,
     dibble,
     linkedin,
