@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b96920af1dd2fb3473c71a68e4a9d9",
+    "revision": "264de6658a3ea5eea44f1dcc41e8c09d",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "dc64700ed7acd581422e",
+    "revision": "0e51da06bf335aeebbff",
     "url": "/portfolio/static/css/2.d4e7eff5.chunk.css"
   },
   {
-    "revision": "d986213b015b17c6f105",
-    "url": "/portfolio/static/css/main.df0902f1.chunk.css"
+    "revision": "f18a39498ce0e628c201",
+    "url": "/portfolio/static/css/main.685b977c.chunk.css"
   },
   {
-    "revision": "dc64700ed7acd581422e",
-    "url": "/portfolio/static/js/2.8041f932.chunk.js"
+    "revision": "0e51da06bf335aeebbff",
+    "url": "/portfolio/static/js/2.c7c19984.chunk.js"
   },
   {
     "revision": "56729d980da09961afe8d497a21eec12",
-    "url": "/portfolio/static/js/2.8041f932.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.c7c19984.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d986213b015b17c6f105",
-    "url": "/portfolio/static/js/main.1ae1912c.chunk.js"
+    "revision": "f18a39498ce0e628c201",
+    "url": "/portfolio/static/js/main.469d22ca.chunk.js"
   },
   {
     "revision": "7a6cc99bd8f08f9fa6ec",
@@ -32,8 +32,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bag.bafb036a.png"
   },
   {
-    "revision": "41cea58d5aecdf47c764985855c96651",
-    "url": "/portfolio/static/media/behance.41cea58d.svg"
+    "revision": "b7cdf6417ccec91e7b0eff6c3f6f6a15",
+    "url": "/portfolio/static/media/behance.b7cdf641.svg"
+  },
+  {
+    "revision": "9f27b01e173389d7418240229b6f3286",
+    "url": "/portfolio/static/media/bg.9f27b01e.png"
   },
   {
     "revision": "a1440e07e2ce28416866dc3084eb8059",
@@ -48,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/design-dev.8c2ed16c.png"
   },
   {
-    "revision": "2ecaee2185b2154fc1bc4dc5669167a0",
-    "url": "/portfolio/static/media/dribbble.2ecaee21.svg"
+    "revision": "2ebf862920a8bc741877dbb2ce0e3331",
+    "url": "/portfolio/static/media/dribbble.2ebf8629.svg"
   },
   {
     "revision": "a1440e07e2ce28416866dc3084eb8059",
@@ -76,8 +80,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/left-leaves.c7c2753f.png"
   },
   {
-    "revision": "4018827d02481e025e71746f0b6dfc57",
-    "url": "/portfolio/static/media/linkedin.4018827d.svg"
+    "revision": "d77488286786f1767d48c5df7b4f7170",
+    "url": "/portfolio/static/media/linkedin.d7748828.svg"
   },
   {
     "revision": "c17ae11d85ce0b2f898d96654fdaf092",
