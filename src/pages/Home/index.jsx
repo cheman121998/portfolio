@@ -13,9 +13,9 @@ class Home extends React.Component {
     render() {
         return (
             <div className="home">
-                <Header></Header>
-                <ThingsIDo></ThingsIDo>
-                <RecentWork></RecentWork>
+                {/* <Header></Header>
+                <ThingsIDo></ThingsIDo> */}
+                <RecentWork />
                 <Footer></Footer>
             </div>
         );

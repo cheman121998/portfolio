@@ -91,6 +91,9 @@ button {
     .image:nth-child(3) {
         margin-top: 56px;
     }
+    .image:nth-child(4) {
+        margin-top: -16px;
+    }
 }
 
 .contact {
@@ -148,6 +151,7 @@ button {
             img:nth-child(3) {
                 margin-right: 0;
             }
+
             img:hover {
                 @extend %hover;
             }
@@ -155,10 +159,10 @@ button {
     }
 }
 
-@media only screen and (max-width: 968px) {
+@media only screen and (max-width: 1106px) {
     .recentWork {
         .image {
-            margin: 50px auto;
+            margin: 20px auto;
         }
         .image:nth-child(1),
         .image:nth-child(4) {
@@ -171,6 +175,10 @@ button {
         .image:nth-child(1),
         .image:nth-child(3) {
             height: auto;
+            margin-top: 20px;
+        }
+        .image:nth-child(4) {
+            margin-top: 20px;
         }
         .wrapImage {
         }
