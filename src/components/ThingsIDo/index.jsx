@@ -1,11 +1,13 @@
 import React from 'react';
-import { strategy, desDev, informationImg } from '../../assets/images';
+import { strategy, desDev, informationImg, leaveLeft, leaveRight } from '../../assets/images';
 import './style.scss';
 
 class ThingsIDo extends React.Component {
     render() {
         return (
-            <div>
+            <div style={{ position: 'relative' }}>
+                <img src={leaveLeft} className="leaveLeft" />
+                <img src={leaveRight} className="leaveRight" />
                 <section id="things-i-do">
                     <div className="container">
                         <h2>Things I Do</h2>

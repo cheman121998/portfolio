@@ -5,16 +5,7 @@ import { logo, dibble, behance, linkedin } from '../../assets/images';
 import { Link, NavLink } from 'react-router-dom';
 import { Tooltip, Button, Drawer } from 'antd';
 
-const link = (to, label) => (
-    <NavLink
-        to={to}
-        // activeStyle={{
-        //     textDecoration: 'underline',
-        // }}
-    >
-        {label}
-    </NavLink>
-);
+const link = (to, label) => <NavLink to={to}>{label}</NavLink>;
 
 const linkMobile = (to, label) => (
     <NavLink

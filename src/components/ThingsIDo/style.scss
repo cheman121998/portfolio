@@ -1,6 +1,19 @@
 :focus {
     outline: none;
 }
+
+.leaveLeft {
+    position: absolute;
+    left: -130px;
+    z-index: 0;
+}
+.leaveRight {
+    position: absolute;
+    right: -228px;
+    z-index: 0;
+    bottom: 0;
+}
+
 #things-i-do {
     margin: 80px auto;
     .container {
@@ -16,6 +29,7 @@
             display: flex;
             width: 100%;
             margin: 88px auto;
+            z-index: 2;
             .col-6 {
                 width: 50%;
                 .txt-map {
@@ -25,6 +39,7 @@
                         line-height: 26px;
                         margin-bottom: 24px;
                         color: #363636;
+                        background-color: #ffffff;
                     }
                     p {
                         max-width: 400px;
