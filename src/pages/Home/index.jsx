@@ -7,8 +7,6 @@ import RecentWork from '../../components/RecentWork';
 import ThingsIDo from '../../components/ThingsIDo';
 import Footer from '../../components/Footer';
 
-//import tất cả components, image vào đây
-
 class Home extends React.Component {
     render() {
         return (
