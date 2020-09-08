@@ -55,7 +55,11 @@ class Header extends React.Component {
                                         {link('/about', 'About')}
                                         {link('/resume', 'Resume')}
 
-                                        <Tooltip placement="bottomLeft" title="Contact us">
+                                        <Tooltip
+                                            trigger="click"
+                                            placement="bottomLeft"
+                                            title="Contact us"
+                                        >
                                             <button className="contactUs">Contact</button>
                                         </Tooltip>
                                     </nav>
@@ -80,7 +84,11 @@ class Header extends React.Component {
                                         {linkMobile('/about', 'About')}
                                         {linkMobile('/resume', 'Resumne')}
 
-                                        <Tooltip placement="bottomLeft" title="Contact us">
+                                        <Tooltip
+                                            trigger="click"
+                                            placement="bottomLeft"
+                                            title="Contact us"
+                                        >
                                             <Button className="contact">Contact</Button>
                                         </Tooltip>
                                     </Drawer>
@@ -96,7 +104,7 @@ class Header extends React.Component {
                                 Multifunctional designer/developer based in Bath — a traditionally
                                 trained designer who codes.
                             </p>
-                            <Tooltip placement="topLeft" title="View Work">
+                            <Tooltip trigger="click" placement="topLeft" title="View Work">
                                 <button>View Work</button>
                             </Tooltip>
                         </div>
