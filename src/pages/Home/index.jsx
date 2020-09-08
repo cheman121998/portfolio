@@ -15,7 +15,7 @@ class Home extends React.Component {
             <div className="home">
                 <Header></Header>
                 <ThingsIDo></ThingsIDo>
-                <RecentWork></RecentWork>
+                <RecentWork />
                 <Footer></Footer>
             </div>
         );
