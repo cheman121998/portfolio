@@ -4,13 +4,13 @@
 #header {
     padding: 40px 0;
     background: url('../../assets/images/illustration-header.png') no-repeat;
-    background-repeat: no-repeat;
-    background-position: 40vw -60vh;
     flex-direction: column;
     display: flex;
     justify-content: flex-end;
     position: relative;
-    background-size: 100vh;
+    // background-size: 100vh;
+    // background-position-x: -10vh;
+    // background-position-y: ;
 
     .navbar {
         max-height: 56px;
@@ -83,13 +83,17 @@
         }
     }
     .container {
+        height: 100%;
         .intro-text {
             min-height: 60vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
+            // margin-top: 180px;
+            //margin-bottom: 80px;
             max-width: 280px;
             font-size: 18px;
+
             h1 {
                 line-height: 48px;
                 font-size: 36px;
@@ -176,7 +180,7 @@
     }
 }
 
-@media (max-width: 575px) {
+@media screen and (max-width: 575px) {
     #header {
         background-size: 60vh;
         background-position-x: 20vh;
@@ -217,11 +221,13 @@
         }
     }
 }
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
     #header {
         background-size: 60vh;
         background-position-x: 20vh;
         .container {
+            margin: 0px auto;
+            padding: 0 50px;
             .intro-text {
                 h1 {
                     font-size: 32px;
@@ -242,19 +248,14 @@
         }
     }
 }
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
     #header {
-        padding: 40px 0;
-        background: url('../../assets/images/illustration-header.png') no-repeat;
-        background-repeat: no-repeat;
-        background-size: 1004px;
-        background-position: 40vw -60vh;
-        flex-direction: column;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
-
+        background-size: 100vh;
+        background-position-x: 130vh;
+        background-position-y: -15vh;
         .container {
+            margin: 0px auto;
+            padding: 0 15px;
             .intro-text {
                 h1 {
                     font-size: 34px;
@@ -280,16 +281,12 @@
         }
     }
 }
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
     #header {
-        background-repeat: no-repeat;
-        background-size: 1004px;
-        background-position: 40vw -60vh;
-        flex-direction: column;
-        display: flex;
-        justify-content: flex-end;
-        position: relative;
         .container {
+            background-size: 100vh;
+            background-position-x: 150vh;
+            background-position-y: -25vh;
             .intro-text {
                 h1 {
                     font-size: 36px;
