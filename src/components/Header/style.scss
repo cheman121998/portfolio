@@ -78,6 +78,9 @@
                         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
                         transition: 0.5s ease;
                     }
+                    button {
+                        background-color: transparent;
+                    }
                 }
             }
         }
@@ -126,17 +129,15 @@
         }
         .group-icon {
             img {
-                width: 28px;
-                height: 28px;
+                width: auto;
+                height: 20px;
                 margin-right: 28px;
                 margin-top: 80px;
                 cursor: pointer;
                 transition: 0.5s;
             }
             img:hover {
-                box-shadow: 0 3px 6px rgba(0, 0, 0, 0.46);
-                transform: scale(1.002);
-                padding: 1px;
+                transform: scale(1.05);
             }
         }
     }
@@ -150,11 +151,6 @@
         display: block;
         line-height: 40px;
     }
-    // a:hover,
-    // a.active {
-    //     border-bottom: 2px solid #3f3d56;
-    //     width: fit-content;
-    // }
 
     button {
         border-radius: 24px;
@@ -205,11 +201,10 @@
                     font-size: 16px;
                     line-height: 28px;
                 }
-                button {
-                    width: 100px;
-                    font-size: 12px;
-                    height: 36px;
-                }
+            }
+            .group-icon {
+                display: flex;
+                justify-content: center;
             }
         }
         .collapse {
@@ -236,11 +231,10 @@
                     font-size: 16px;
                     line-height: 28px;
                 }
-                button {
-                    width: 100px;
-                    font-size: 12px;
-                    height: 36px;
-                }
+            }
+            .group-icon {
+                display: flex;
+                justify-content: center;
             }
         }
         .collapse {
@@ -264,11 +258,10 @@
                     font-size: 16px;
                     line-height: 28px;
                 }
-                button {
-                    width: 120px;
-                    font-size: 14px;
-                    height: 38px;
-                }
+            }
+            .group-icon {
+                display: flex;
+                justify-content: flex-start;
             }
         }
         .collapse {
@@ -294,11 +287,6 @@
                 p {
                     font-size: 18px;
                     line-height: 31px;
-                }
-                button {
-                    width: 120px;
-                    font-size: 15px;
-                    height: 42px;
                 }
             }
         }

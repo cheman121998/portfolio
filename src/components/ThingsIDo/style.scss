@@ -86,10 +86,10 @@
 
 @media screen and (max-width: 576px) {
     #things-i-do {
-        text-align: left;
+        text-align: center;
         .container {
             h2 {
-                text-align: left;
+                text-align: center;
             }
             .row {
                 display: block;
@@ -105,6 +105,7 @@
                         div {
                             p {
                                 font-size: 16px;
+                                max-width: 100%;
                             }
                         }
                     }
@@ -115,7 +116,7 @@
 }
 @media screen and (min-width: 576px) {
     #things-i-do {
-        text-align: left;
+        text-align: center;
         .container {
             margin: 0px auto;
             padding: 0 50px;
@@ -165,12 +166,12 @@
         }
     }
     #things-i-do {
-        text-align: left;
+        text-align: center;
         .container {
+            text-align: left;
             margin: 0px auto;
             padding: 0 15px;
             h2 {
-                text-align: center;
             }
             .row {
                 display: flex;
@@ -198,8 +199,10 @@
 @media screen and (min-width: 992px) {
     #things-i-do {
         .container {
+            text-align: left;
             h2 {
                 font-size: 34px;
+                text-align: left;
             }
             .col-6 {
                 width: 50%;
